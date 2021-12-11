@@ -18,6 +18,7 @@ navbar-links:
   Resources:
     - Beautiful Jekyll: "https://beautifuljekyll.com"
     - Learn markdown: "https://www.markdowntutorial.com/"
+  标签集合: "tags"
   #Author's home: "https://deanattali.com"
 
 # --- Logo --- #
