@@ -28,3 +28,6 @@ int main() {
 	printPtr(arry);
 }
 ```
+
+
+https://github.com/yr-github/cppJobInterview
