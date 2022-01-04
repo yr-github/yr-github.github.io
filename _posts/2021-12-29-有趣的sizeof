@@ -1,0 +1,30 @@
+---
+layout: post
+title: 有趣的sizeof
+subtitle: 彻底弄懂sizeof的机制~
+tags: [面试,C++]
+comments: true
+---
+
+
+```
+#include <cstdio>
+int arra[10];
+int* ss = arra;
+float arry[8];
+const int size = sizeof(arra) > sizeof(arry) ? sizeof(arra) : sizeof(arry);
+const int over = sizeof(ss);
+
+template <class T>
+int printPtr(T& ptr, std::string str="")
+{
+	printf("p:%p:,%d", ptr, sizeof(ptr));
+	return 0;
+}
+
+int main() {
+	printPtr(arra);
+	printPtr(ss);
+	printPtr(arry);
+}
+```
